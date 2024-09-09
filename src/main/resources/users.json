@@ -1,0 +1,23 @@
+[{
+    "name": "Bob",
+    "email": "bob@example.com",
+    "password": "password123",
+    "address": "123 Main St, City, Country",
+    "phone": "555-555-5555"
+},
+{
+    "name": "Rob",
+    "email": "rob@example.com",
+    "password": "password123",
+    "address": "123 Main St, City, Country",
+    "phone": "555-555-5555"
+},
+{
+    "name": "Tom",
+    "email": "tom@example.com",
+    "password": "password123",
+    "address": "123 Main St, City, Country",
+    "phone": "555-555-5555"
+}
+]
+

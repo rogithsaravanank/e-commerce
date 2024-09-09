@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Product 1",
+        "description": "Description for product 1",
+        "price": 100,
+        "quantity": 10,
+        "category": "Electronics",
+        "imageurl": "http://example.com/product1.jpg"
+    },
+    {
+        "name": "Product 2",
+        "description": "Description for product 2",
+        "price": 200,
+        "quantity": 5,
+        "category": "Clothing",
+        "imageurl": "http://example.com/product2.jpg"
+    },
+    {
+        "name": "Product 3",
+        "description": "Description for product 2",
+        "price": 300,
+        "quantity": 2,
+        "category": "Decor",
+        "imageurl": "http://example.com/product2.jpg"
+    }
+]

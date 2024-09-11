@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -32,6 +33,10 @@ public class ProductService {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public Optional<Product> getProductsById(Long id) {
+        return productRepo.findById(id);
     }
     
 }

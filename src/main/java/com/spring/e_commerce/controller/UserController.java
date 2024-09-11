@@ -35,6 +35,7 @@ public class UserController {
     public List<User> getUser(){
         return userService.getUser();
     }
+    
     // @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     // public ResponseEntity<List<User>> getUser() {
     //     List<User> users = userService.getUser();

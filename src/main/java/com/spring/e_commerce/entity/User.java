@@ -40,7 +40,7 @@ public class User {
     private String phone;
 
     @OneToMany(mappedBy = "user")
-    // @JsonManagedReference
+    @JsonManagedReference(value = "user-orders")
     private List<Order> orders;
 
 }

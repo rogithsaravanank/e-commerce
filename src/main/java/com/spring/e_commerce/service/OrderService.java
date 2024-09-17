@@ -50,5 +50,9 @@ public class OrderService {
     public List<Order> getOrder() {
        return orderRepo.findAll();
     }
+
+    public Optional<Order> getOrderById(Long id) {
+        return orderRepo.findById(id);
+    }
     
 }
